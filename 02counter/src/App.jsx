@@ -10,7 +10,13 @@ function App() {
     
     // counter = counter + 1
     // console.log("value added ", Math.random());
-    setCounter(counter + 1)
+    setCounter((prevCounter) => prevCounter+ 1)
+    setCounter((prevCounter) => prevCounter+ 1)
+    setCounter((prevCounter) => prevCounter+ 1)
+    setCounter((prevCounter) => prevCounter+ 1)
+    setCounter((prevCounter) => prevCounter+ 1)
+   
+
     // console.log("clicked", counter);
   }
   
